@@ -1,0 +1,6 @@
+Sentence;P;P_DESC;A0;A0_DESC;A1;A1_DESC;A2;A2_DESC;DomainActions
+;;choose, pick;;picker;;thing picked;;;IO,Input,Selection
+;;to make a choice, to pick out;;selector;;entity selected;;;IO,Input,Selection
+;;get back;;receiver;;thing gotten;;;Data,Read,Multiple
+;;give;;;;sent;;sent-to;Process,Communication,Outdoor
+;;to present, exhibit;;displayer, agent;;entity displayed;;;IO,Output,Display

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/57/trunk/REAssistant-models/domain/actions/arff
+END
+subsetfiltered.arff
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/57/trunk/REAssistant-models/domain/actions/arff/subsetfiltered.arff
+END
+fulloriginal.arff
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/57/trunk/REAssistant-models/domain/actions/arff/fulloriginal.arff
+END
+subsetoriginal.arff
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/57/trunk/REAssistant-models/domain/actions/arff/subsetoriginal.arff
+END
+fullfiltered.arff
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/57/trunk/REAssistant-models/domain/actions/arff/fullfiltered.arff
+END

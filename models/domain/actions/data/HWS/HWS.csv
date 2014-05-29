@@ -1,0 +1,269 @@
+Sentence;P;P_DESC;A0;A0_DESC;A1;A1_DESC;A2;A2_DESC;DomainActions
+The citizen chooses the type of query;chooses;choose, pick;The citizen;picker;the type of query;thing picked;;;IO,Input,Selection
+In the case of query on specialties grouped by health units, the system retrieves the list of health units stored.;grouped;put into some group;by health units;agent, entity causing some grouping;specialties;theme, thing being included in some group;;;Noise
+In the case of query on specialties grouped by health units, the system retrieves the list of health units stored.;retrieves;get back;the system;receiver;the list of health units stored;thing gotten;;;Data,Read,Multiple
+In the case of query on specialties grouped by health units, the system retrieves the list of health units stored.;stored;store;;;health units;commodity;;;Data,Write,Update
+The system retrieves the details of each health unit such as its description and specialties.;retrieves;get back;The system;receiver;the details of each health unit such as its description and specialties;thing gotten;;;Data,Read,Multiple
+The list of health units is presented to the user on their local display.;presented;give;;;The list of health units;thing given;to the user on their local display;given to;IO,Output,Display
+In the case of a query on health units grouped by specialties, the system retrieves the list of registered specialties.;grouped;put into some group;by specialties;agent, entity causing some grouping;health units;theme, thing being included in some group;;;Noise
+In the case of a query on health units grouped by specialties, the system retrieves the list of registered specialties.;retrieves;get back;the system;receiver;the list of registered specialties;thing gotten;;;Data,Read,Multiple
+The system retrieves the details of each specialty such as its unique identifier and name.;retrieves;get back;The system;receiver;the details of each specialty such as its unique identifier and name;thing gotten;;;Data,Read,Multiple
+The list of specialties is presented to the user on their local display.;presented;give;;;The list of specialties;thing given;to the user on their local display;given to;IO,Output,Display
+In the case of a query on diseases, the system retrieves the list of diseases.;retrieves;get back;the system;receiver;the list of diseases;thing gotten;;;Data,Read,Multiple
+The system retrieves the details of each disease type such as its unique identifier and name.;retrieves;get back;The system;receiver;the details of each disease type such as its unique identifier and name;thing gotten;;;Data,Read,Multiple
+The list of disease is presented to the user on their local display.;presented;give;;;The list of disease;thing given;to the user on their local display;given to;IO,Output,Display
+The citizen provides the data for the query;provides;cf give;The citizen;provider;the data;thing provided;for the query;entity provided for  benefactive ;IO,Input,Entry
+In the case of a query on specialties grouped by health units, the citizen selects the health unit to be queried.;grouped;put into some group;by health units;agent, entity causing some grouping;specialties;theme, thing being included in some group;;;Noise
+In the case of a query on specialties grouped by health units, the citizen selects the health unit to be queried.;selects;to make a choice, to pick out;the citizen;selector;the health unit;entity selected;;;IO,Input,Selection
+In the case of a query on specialties grouped by health units, the citizen selects the health unit to be queried.;queried;ask;;;the health unit;oracle, answerer;;;Data,Read,Multiple
+A unique identifier representing the selected health unit is sent to the server.;representing;stand for, correspond;A unique identifier;item   entity taking place of other;the selected health unit;item   entity being substituted by the other;;;Noise
+A unique identifier representing the selected health unit is sent to the server.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+A unique identifier representing the selected health unit is sent to the server.;sent;give;;;A unique identifier representing the selected health unit;sent;to the server;sent-to;Process,Communication,Outdoor
+The system ensures the health unit information is consistent.;ensures;promise;The system;entity making guarantee;the health unit information is consistent;guarantee;;;Process,Calculation,Verification
+The unique identifier is used by the system to search the repository for the selected health unit.;used;Take advantage of, utilise;by the system;User;The unique identifier;thing used;to search the repository for the selected health unit;purpose;Noise
+The unique identifier is used by the system to search the repository for the selected health unit.;search;search, seek;The unique identifier;searcher;the repository for the selected health unit;Area searched;;;Data,Read,Single,Process,Communication,Indoor
+The unique identifier is used by the system to search the repository for the selected health unit.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The details of the selected health unit are retrieved including its specialties.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The details of the selected health unit are retrieved including its specialties.;retrieved;get back;;;The details of the selected health unit;thing gotten;;;Data,Read,Multiple
+The details of the selected health unit are retrieved including its specialties.;including;include;;;its specialties;theme, thing being included in some group;The details of the selected health unit;group;Noise
+The specialties for the selected health unit are returned to the user.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The specialties for the selected health unit are returned to the user.;returned;come back;;;The specialties for the selected health unit;entity in motion;;;IO,Output,Display
+In the case of a query on health units grouped by specialties, the citizen selects the specialty to be queried.;grouped;put into some group;by specialties;agent, entity causing some grouping;health units;theme, thing being included in some group;;;Noise
+In the case of a query on health units grouped by specialties, the citizen selects the specialty to be queried.;selects;to make a choice, to pick out;the citizen;selector;the specialty to be queried;entity selected;;;IO,Input,Selection
+In the case of a query on health units grouped by specialties, the citizen selects the specialty to be queried.;queried;ask;;;the specialty;oracle, answerer;;;Data,Read,Multiple
+A unique identifier representing the selected specialty is sent to the server.;representing;stand for, correspond;A unique identifier;item   entity taking place of other;the selected specialty;item   entity being substituted by the other;;;Noise
+A unique identifier representing the selected specialty is sent to the server.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+A unique identifier representing the selected specialty is sent to the server.;sent;give;;;A unique identifier representing the selected specialty;sent;to the server;sent-to;Data,Read,Single,Process,Communication,Outdoor
+The system ensures the health unit information is consistent.;ensures;promise;The system;entity making guarantee;the health unit information is consistent;guarantee;;;Process,Calculation,Verification
+The unique identifier is used to retrieve the list of health units which are associated with the selected specialty.;used;Take advantage of, utilise;;;The unique identifier;thing used;to retrieve the list of health units which are associated with the selected specialty;purpose;Noise
+The unique identifier is used to retrieve the list of health units which are associated with the selected specialty.;retrieve;get back;The unique identifier;receiver;the list of health units which are associated with the selected specialty;thing gotten;;;Data,Read,Multiple
+The unique identifier is used to retrieve the list of health units which are associated with the selected specialty.;associated;include in some group;;;health units;theme, thing being included in some group;with the selected specialty;group, associated-with;Noise
+The unique identifier is used to retrieve the list of health units which are associated with the selected specialty.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The details of the health units and specialties are retrieved.;retrieved;get back;;;The details of the health units and specialties;thing gotten;;;Data,Read,Multiple
+The retrieved health units are returned to the user.;retrieved;get back;;;The;thing gotten;;;Data,Read,Multiple
+The retrieved health units are returned to the user.;returned;come back;;;The retrieved health units;entity in motion;;;IO,Output,Display
+In the case of a query on complaints, the citizen provides the complaint code.;provides;cf give;the citizen;provider;the complaint code;thing provided;;;IO,Input,Entry
+The unique identifier representing the complaint to be retrieved is sent to the server.;representing;stand for, correspond;The unique identifier;item   entity taking place of other;the complaint to be retrieved;item   entity being substituted by the other;;;Noise
+The unique identifier representing the complaint to be retrieved is sent to the server.;retrieved;get back;;;the complaint;thing gotten;;;Data,Read,Multiple
+The unique identifier representing the complaint to be retrieved is sent to the server.;sent;give;;;The unique identifier representing the complaint to be retrieved;sent;to the server;sent-to;Data,Read,Single,Process,Communication,Outdoor
+The system ensures the complaint information is consistent.;ensures;promise;The system;entity making guarantee;the complaint information is consistent;guarantee;;;Process,Calculation,Verification
+The unique identifier is used to retrieve the complaint entry.;used;Take advantage of, utilise;;;The unique identifier;thing used;to retrieve the complaint entry;purpose;Noise
+The unique identifier is used to retrieve the complaint entry.;retrieve;get back;The unique identifier;receiver;the complaint entry;thing gotten;;;Data,Read,Single
+The system must determine the complaint type as to retrieve the appropriate information.;determine;set, establish, decide;The system;decider;the complaint type as to retrieve the appropriate information;thing determined;;;Process,Calculation
+The system must determine the complaint type as to retrieve the appropriate information.;retrieve;get back;;;the appropriate information;thing gotten;;;Data,Read,Multiple
+If the complaint is a special complaint the complainers age, education level and occupation are retrieved  in addition to the standard complaint information .;retrieved;get back;;;;;;;Data,Read,Multiple
+If the complaint is a food complaint the meal which was consumed, the number of people who ate the meal, the number of sick people, etc. are retrieved  in addition to the standard complaint information .;consumed;eat, use up;;;the meal;consumed;;;Noise
+If the complaint is a food complaint the meal which was consumed, the number of people who ate the meal, the number of sick people, etc. are retrieved  in addition to the standard complaint information .;ate;;people;;the meal, the number of sick people, etc;;;;Noise
+If the complaint is a food complaint the meal which was consumed, the number of people who ate the meal, the number of sick people, etc. are retrieved  in addition to the standard complaint information .;retrieved;get back;;;the number of people who ate the meal, the number of sick people, etc;thing gotten;;;Data,Read,Multiple
+If the complaint is an animal complaint the animal species and the number of animals affected  in addition to the standard complaint information .;affected;have an effect on;;;animals;thing affected;;;Noise
+The complaint with all the appropriate information is returned to the user.;returned;come back;;;The complaint with all the appropriate information;entity in motion;;;IO,Output,Display
+In the case of a query on diseases, the citizen selects the disease to be queried.;selects;to make a choice, to pick out;the citizen;selector;the disease to be queried;entity selected;;;IO,Input,Selection
+In the case of a query on diseases, the citizen selects the disease to be queried.;queried;ask;;;the disease;oracle, answerer;;;Data,Read,Single
+The unique identifier representing the disease type to be retrieved is sent to the server.;representing;stand for, correspond;The unique identifier;item   entity taking place of other;the disease type to be retrieved;item   entity being substituted by the other;;;Noise
+The unique identifier representing the disease type to be retrieved is sent to the server.;retrieved;get back;;;the disease type;thing gotten;;;Data,Read,Single
+The unique identifier representing the disease type to be retrieved is sent to the server.;sent;give;;;The unique identifier representing the disease type to be retrieved;sent;to the server;sent-to;Data,Read,Single,Process,Communication,Outdoor
+The system ensures the disease type information is consistent.;ensures;promise;The system;entity making guarantee;the disease type information is consistent;guarantee;;;Process,Calculation,Verification
+The unique identifier is used to retrieve the disease type to query.;used;Take advantage of, utilise;;;The unique identifier;thing used;to retrieve the disease type to query;purpose;Noise
+The unique identifier is used to retrieve the disease type to query.;retrieve;get back;The unique identifier;receiver;the disease type to query;thing gotten;;;Data,Read,Single
+The unique identifier is used to retrieve the disease type to query.;query;ask;;;the disease type;oracle, answerer;;;Data,Read,Single
+The symptoms for the selected disease type are retrieved.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The symptoms for the selected disease type are retrieved.;retrieved;get back;;;The symptoms for the selected disease type;thing gotten;;;Data,Read,Multiple
+The complete disease information is returned to the user.;returned;come back;;;The complete disease information;entity in motion;;;IO,Output,Display
+The query results are formatted and presented to the user on their local display.;formatted;;;;The query results;;;;IO,Output,Display,Process,Calculation
+The query results are formatted and presented to the user on their local display.;presented;give;;;The query results;thing given;to the user;given to;IO,Output,Display
+A communication problem occurs.;occurs;occur, take place;;;A communication problem;event;;;Process,Calculation
+Raise an error message;Raise;go up quantifiably;;;;;;;IO,Output,Notification
+A problem occurs retrieving the complaint data.;occurs;occur, take place;;;retrieving the complaint data;event;;;Process,Calculation
+A problem occurs retrieving the complaint data.;retrieving;get back;A problem;receiver;the complaint data;thing gotten;;;Data,Read,Single
+The system retrieves the available information.;retrieves;get back;The system;receiver;the available information;thing gotten;;;Data,Read,Multiple
+Raise an error message;Raise;go up quantifiably;;;;;;;IO,Output,Notification
+An invalid complaint code is entered.;entered;submit, cause to enter;;;An invalid complaint code;thing submitted;;;IO,Input,Entry
+Raise an error message informing the user the complaint does not exist.;Raise;go up quantifiably;;;an error message informing the user the complaint does not exist.;Logical subject, patient, thing rising;;;IO,Output,Notification
+Raise an error message informing the user the complaint does not exist.;informing;cause to know;an error message;informer;the user the complaint does not exist.;informed;;;IO,Output,Notification
+Raise an error message informing the user the complaint does not exist.;exist;be;;;the complaint;thing existing;;;Data,Read,Single
+Consistent data cannot be assured.;assured;calm someone's nerves;;;Consistent data cannot;assured one;;;Data,Read,Single,Process,Verification
+The system abandons the data retrieval.;abandons;leave behind;The system;abandoner;the data retrieval;thing abandoned, left behind;;;Data,Read,Multiple,Process,Calculation
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+The data to be queried must be registered on the system.;queried;ask;;;The data;oracle, answerer;;;Data,Read,Single
+The data to be queried must be registered on the system.;registered;official record;;;The data to be queried;thing registered;on the system;registered with or for;Process,Verification
+The citizen selects the kind of complaint.;selects;to make a choice, to pick out;The citizen;selector;the kind of complaint;entity selected;;;IO,Input,Selection
+The system shows the specific screen for each type of complaint.;shows;cause to see;The system;shower;the specific screen for each type of complaint;thing seen shown;;;IO,Output,Display
+The system registers the kind, date and time of the complaints.;registers;measure;The system;measurer;the kind, date and time of the complaints;thing measured;;;Data,Write,Create
+The citizen provides the complaint specific data.;provides;cf give;The citizen;provider;the complaint specific data;thing provided;;;IO,Input,Entry
+The system saves the complaint.;saves;financial sense;The system;entity saving money;the complaint;money;;;Data,Write,Create
+The information entered by the user is sent to the server.;entered;submit, cause to enter;by the user;submitter;The information;thing submitted;;;IO,Input,Entry
+The information entered by the user is sent to the server.;sent;give;;;The information entered by the user;sent;to the server;sent-to;Data,Read,Single,Process,Communication,Outdoor
+The system parses the data entered by the user.;parses;;The system;;the data entered by the user;;;;Process,Calculation
+The system parses the data entered by the user.;entered;submit, cause to enter;by the user;submitter;the data;thing submitted;;;IO,Input,Entry
+The system creates a new instance of the appropriate complaint type.;creates;create;The system;creator;a new instance of the appropriate complaint type;thing created;;;Data,Write,Create
+The system generates a unique identifier and assigns this to the new complaint.;generates;create;The system;creator;a unique identifier;thing created;;;Data,Write,Create,Process,Calculation
+The system generates a unique identifier and assigns this to the new complaint.;assigns;give, associate with;The system;agent, assigner;this;thing assigned;to the new complaint;assigned to;Data,Write,Update
+The complainers address is parsed and saved.;parsed;;;;The complainers address;;;;Process,Calculation
+The complainers address is parsed and saved.;saved;collect, accrue;The complainers address;collector;;;;;Data,Write,Create
+The common complaint information is parsed and stored with the OPENED state.;parsed;;;;The common complaint information;;with the OPENED state;;Process,Calculation
+The common complaint information is parsed and stored with the OPENED state.;stored;store;;;The common complaint information;commodity;;;Data,Write,Create
+The specific complaint data is then extracted and stored accordingly.;extracted;to remove or obtain;;;The specific complaint data;thing extracted;;;Data,Read,Single,Process,Calculation
+The specific complaint data is then extracted and stored accordingly.;stored;;;;The specific complaint data;;;;Data,Write,Update
+The system ensures the data is left in a consistent state.;ensures;promise;The system;entity making guarantee;the data is left in a consistent state;guarantee;;;Data,Read,Single,Process,Verification
+The system ensures the data is left in a consistent state.;left;move away from;;;the data;place, person, or thing left;;;Noise
+The unique identifier is returned and presented to the user on their local display.;returned;come back;;;The unique identifier;entity in motion;;;IO,Output,Display
+The unique identifier is returned and presented to the user on their local display.;presented;give;;;The unique identifier;thing given;to the user on their local display;given to;IO,Output,Display,Process,Calculation
+A communication problem occurs.;occurs;occur, take place;;;A communication problem;event;;;Process,Calculation
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Invalid data is entered by the user.;entered;submit, cause to enter;by the user;submitter;Invalid data;thing submitted;;;IO,Input,Entry
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+A problem occurs storing the complaint.;occurs;occur, take place;;;storing the complaint;event;;;Process,Calculation
+A problem occurs storing the complaint.;storing;store;A problem;storer;the complaint;commodity;;;Data,Write,Create
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Data consistency cannot be ensured.;ensured;promise;;;Data consistency cannot;guarantee;;;Data,Read,Single,Process,Verification
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+The complaint saved on the system.;saved;financial sense;;;The complaint;money;;;Data,Write,Create
+The employee provides the login and password.;provides;cf give;The employee;provider;the login and password;thing provided;;;IO,Input,Entry
+The login and password are sent to the server.;sent;give;;;The login and password;sent;to the server;sent-to;Data,Read,Single,Process,Communication,Outdoor
+The system retrieves the employee details using the login as a unique identifier.;retrieves;get back;The system;receiver;the employee details using the login as a unique identifier;thing gotten;;;Data,Read,Single
+The system retrieves the employee details using the login as a unique identifier.;using;Take advantage of, utilise;the employee details;User;the login;thing used;as a unique identifier;purpose;Process,Calculation
+The system validates the entered password.;validates;to declare or make legally valid;The system;causer;the entered password;entity validated;;;Process,Calculation,Verification
+The system validates the entered password.;entered;submit, cause to enter;;;the;thing submitted;;;IO,Input,Entry
+The result of the login attempt is presented to the employee on their local display.;presented;give;;;The result of the login attempt;thing given;to the employee on their local display;given to;IO,Output,Display,Process,Calculation
+A communication error occurs.;occurs;occur, take place;;;A communication error;event;;;Process,Calculation
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+A problem occurs retrieving the employee details.;occurs;occur, take place;;;retrieving the employee details;event;;;Process,Calculation
+A problem occurs retrieving the employee details.;retrieving;get back;A problem;receiver;the employee details;thing gotten;;;Data,Read,Single
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+The system cannot validate the employee.;validate;to declare or make legally valid;The system cannot;causer;the employee;entity validated;;;Process,Verification
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Password validated by the system.;validated;to declare or make legally valid;by the system;causer;Password;entity validated;;;Process,Verification
+The employee chooses the option to register  insert update  in one of the tables.;chooses;choose, pick;The employee;picker;the option to register  insert update  in one of the tables;thing picked;;;IO,Input,Selection
+The employee chooses the option to register  insert update  in one of the tables.;register;official record;;;;;in one of the tables;registered with or for;IO,Input,Entry
+The employee enters the data.;enters;enter, go in;The employee;entity entering;the data;place or thing entered;;;IO,Input,Entry
+The system saves the data.;saves;financial sense;The system;entity saving money;the data;money;;;Data,Write,Create
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+Updated data on the tables.;Updated;;;;data on the tables;;;;Data,Write,Update
+The employee selects the update complaint option.;selects;to make a choice, to pick out;The employee;selector;the update complaint option.;entity selected;;;IO,Input,Selection
+The employee selects the update complaint option.;update;make more modern;;;complaint option;thing becoming more modern;;;Data,Write,Update
+The system retrieves the list of all registered complaints.;retrieves;get back;The system;receiver;the list of all registered complaints;thing gotten;;;Data,Read,Multiple
+The complaint list is populated with general and complaint type specific data.;populated;provide inhabitants for, fill with inhabitants;;;The complaint list;area;with general and complaint type specific data;population;Data,Write,Create,Process,Calculation
+The list of complaints is returned to the employee.;returned;come back;;;The list of complaints;entity in motion;;;IO,Output,Display
+The complaints are formatted and presented to the employee on their local display.;formatted;;;;The complaints;;;;IO,Output,Display,Process,Calculation
+The complaints are formatted and presented to the employee on their local display.;presented;give;;;The complaints;thing given;to the employee;given to;IO,Output,Display
+The employee selects the complaint they wish to update.;selects;to make a choice, to pick out;The employee;selector;the complaint they wish to update;entity selected;;;IO,Input,Selection
+The employee selects the complaint they wish to update.;wish;wish;they;wisher;to update;thing wished for;;;Noise
+The employee selects the complaint they wish to update.;update;make more modern;they;updated;the complaint;thing becoming more modern;;;Data,Write,Update
+The complaint unique identifier is sent to the server.;sent;give;;;The complaint unique identifier;sent;to the server;sent-to;Data,Write,Create,Process,Communication,Outdoor
+The system ensures the complaint data is consistent.;ensures;promise;The system;entity making guarantee;the complaint data is consistent;guarantee;;;Data,Read,Single,Process,Verification
+The system retrieves the complaint entry.;retrieves;get back;The system;receiver;the complaint entry;thing gotten;;;Data,Read,Single
+The complaint is returned to the employee.;returned;come back;;;The complaint;entity in motion;;;IO,Output,Display
+The complaint is formatted and presented to the employee on their local display.;formatted;;;;The complaint;;;;IO,Output,Display,Process,Calculation
+The complaint is formatted and presented to the employee on their local display.;presented;give;;;The complaint;thing given;to the employee;given to;IO,Output,Display
+The employee enters the conclusion.;enters;enter, go in;The employee;entity entering;the conclusion;place or thing entered;;;IO,Input,Entry
+The conclusion is sent to the server.;sent;give;;;The conclusion;sent;to the server;sent-to;Process,Communication,Outdoor
+The complaint status is set to closed, the date the conclusion was entered is set in addition to the employee who dealt with the complaint.;set;put, place;;;The complaint status;thing set;to closed;location or position;Data,Write,Update
+The complaint status is set to closed, the date the conclusion was entered is set in addition to the employee who dealt with the complaint.;closed;shut;;;;;;;Noise
+The complaint status is set to closed, the date the conclusion was entered is set in addition to the employee who dealt with the complaint.;entered;submit, cause to enter;;;the conclusion;thing submitted;;;IO,Input,Entry
+The complaint status is set to closed, the date the conclusion was entered is set in addition to the employee who dealt with the complaint.;set;put, place;;;the date the conclusion was entered;thing set;in addition to the employee who dealt with the complaint;location or position;Data,Write,Update
+The complaint status is set to closed, the date the conclusion was entered is set in addition to the employee who dealt with the complaint.;dealt;handle, deal with;the employee;dealer;with the complaint;thing dealt with or in;;;Noise
+The system ensures the complaint is left in a consistent state.;ensures;promise;The system;entity making guarantee;the complaint is left in a consistent state;guarantee;;;Data,Read,Single,Process,Verification
+The system ensures the complaint is left in a consistent state.;left;move away from;;;the complaint;place, person, or thing left;;;Noise
+The complaint information is updated to store the new information.;updated;make more modern;;;The complaint information;thing becoming more modern;;;Data,Write,Update
+The complaint information is updated to store the new information.;store;store;The complaint information;storer;the new information;commodity;;;Data,Write,Create
+An error occurs retrieving the registered complaints.;occurs;occur, take place;;;retrieving the registered complaints;event;;;Process,Calculation
+An error occurs retrieving the registered complaints.;retrieving;get back;An error;receiver;the registered complaints;thing gotten;;;Data,Read,Multiple
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Data consistency cannot be ensured.;ensured;promise;;;Data consistency cannot;guarantee;;;Data,Read,Single,Process,Verification
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+, 6, 9, and 12: A communication error occurs.;occurs;occur, take place;;;A communication error;event;;;
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+An error occurs storing the updated complaint.;occurs;occur, take place;;;storing the updated complaint;event;;;Process,Calculation
+An error occurs storing the updated complaint.;storing;store;An error;storer;the updated complaint;commodity;;;Data,Write,Create
+An error occurs storing the updated complaint.;updated;make more modern;;;the;thing becoming more modern;;;Data,Write,Update
+The complaint changes are rolled back.;rolled;move in circular fashion;;;The complaint changes;thing rolled or rolling;;;Data,Write,Delete,Process,Calculation
+Raise an error message;Raise;go up quantifiably;;;;;;;IO,Output,Notification
+The complaint must be registered and have the OPENED state.;registered;official record;;;The complaint;thing registered;;;Data,Write,Create
+The complaint must be registered and have the OPENED state.;have;own, possess;The complaint;owner;the OPENED state;possession;;;Noise
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+Complaint updated and with state CLOSED.;updated;make more modern;;;Complaint;thing becoming more modern;;;Data,Write,Update
+The employee selects the insert employee option.;selects;to make a choice, to pick out;The employee;selector;the insert employee option.;entity selected;;;IO,Input,Selection
+The employee provides the following information about the new employee: Name, Login ID, and Password  with second password field for confirmation .;provides;cf give;The employee;provider;the following information about the new employee: Name, Login ID, and Password  with second password field for confirmation .;thing provided;;;IO,Input,Entry
+The employee provides the following information about the new employee: Name, Login ID, and Password  with second password field for confirmation .;following;be subsequent, temporally or spatially;;;;;the;thing followed, coming before;Noise
+The employee provides the following information about the new employee: Name, Login ID, and Password  with second password field for confirmation .; ;;;;the new employee: Name, Login ID, and Password;;with second password field for confirmation ;;
+The employee confirms the operation.;confirms;confirm, attest the truth of a proposition;The employee;confirmer;the operation;thing confirmed, statement or proposition;;;IO,Input,Entry
+The entered data is transmitted to the server.;entered;submit, cause to enter;;;The;thing submitted;;;IO,Input,Entry
+The entered data is transmitted to the server.;transmitted;send  electronically ;;;The entered data;sent;to the server;sent-to;Data,Write,Create,Process,Communication,Outdoor
+The system verifies the entered data.;verifies;determine truth of a proposition;The system;verifier;the entered data;verified;;;Process,Verification
+The system verifies the entered data.;entered;submit, cause to enter;;;the;thing submitted;;;IO,Input,Entry
+The system ensures employee data is consistent.;ensures;promise;The system;entity making guarantee;employee data is consistent.;guarantee;;;Data,Read,Single,Process,Verification
+The system saves the new employee's data.;saves;financial sense;The system;entity saving money;the new employee's data;money;;;Data,Write,Create
+Incomplete data entered.;entered;enter, go in;Incomplete data;entity entering;;;;;IO,Input,Entry,Process,Verification
+Show a message informing the employee of the missing incorrect data.;informing;cause to know;a message;informer;the employee of the missing incorrect data;informed;;;IO,Output,Notification
+A communication error occurs.;occurs;occur, take place;;;A communication error;event;;;Process,Calculation,Communication,Indoor
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+The employee is already entered.;entered;submit, cause to enter;;;The employee;thing submitted;;;IO,Input,Entry,Process,Verification
+Inform the employee that the new employee is already entered.;Inform;cause to know;;;the employee;informed;that the new employee is already entered;information;IO,Output,Notification
+Inform the employee that the new employee is already entered.;entered;submit, cause to enter;;;the new employee;thing submitted;;;IO,Input,Entry
+Abandon the entry.;Abandon;leave behind;;;the entry;thing abandoned, left behind;;;Noise
+Data Consistency cannot be ensured.;ensured;promise;;;Data Consistency cannot;guarantee;;;Data,Read,Single,Process,Verification
+The employee is informed the employee cannot be inserted.;informed;cause to know;;;the employee cannot;informed;be inserted;information;IO,Output,Notification
+The employee is informed the employee cannot be inserted.;inserted;to put or set into, between, or among;;;;;;;Data,Write,Create
+An error occurs storing the new employee's details.;occurs;occur, take place;;;storing the new employee's details;event;;;Process,Calculation,Verification
+An error occurs storing the new employee's details.;storing;store;An error;storer;the new employee's details;commodity;;;Data,Write,Create
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+New employee registered on the system.;registered;official record;New employee;entity registering;;;on the system;registered with or for;Data,Write,Create
+The employee chooses the update employee option.;chooses;choose, pick;The employee;picker;the update employee option.;thing picked;;;IO,Input,Selection
+The employee chooses the update employee option.;update;make more modern;;;employee option;thing becoming more modern;;;Data,Write,Update
+The employee provides the data to be updated: Name, New password  with second password field for confirmation , and Current password.;provides;cf give;The employee;provider;the data;thing provided;to be updated: Name, New password  with second password field for confirmation , and Current password;entity provided for  benefactive ;IO,Input,Entry,Data,Write,Update
+The employee provides the data to be updated: Name, New password  with second password field for confirmation , and Current password.;updated;make more modern;;;;;;;Data,Write,Update
+The employee confirms the update.;confirms;confirm, attest the truth of a proposition;The employee;confirmer;the update.;thing confirmed, statement or proposition;;;IO,Input,Entry,Data,Write,Update
+The employee confirms the update.;update;make more modern;;;;;;;Data,Write,Update
+The entered data is sent to the server.;entered;submit, cause to enter;;;The;thing submitted;;;IO,Input,Entry
+The entered data is sent to the server.;sent;give;;;The entered data;sent;to the server;sent-to;IO,Input,Entry,Data,Write,Create,Process,Communication,Outdoor
+The system verifies the entered data.;verifies;determine truth of a proposition;The system;verifier;the entered data;verified;;;Process,Verification
+The system verifies the entered data.;entered;submit, cause to enter;;;the;thing submitted;;;IO,Input,Entry
+The system ensures the employee data is consistent.;ensures;promise;The system;entity making guarantee;the employee data is consistent;guarantee;;;Data,Read,Single,Process,Verification
+The system stores the updated employee information.;updated;make more modern;;;the;thing becoming more modern;;;Data,Write,Update
+On step 3, in case the name or the current password is missing invalid, an error message should be showed.;showed;cause to see;;;an error message;thing seen shown;;;IO,Output,Notification
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+Employee's data updated on the system.;updated;make more modern;;;Employee's data;thing becoming more modern;;;Data,Write,Update
+The employee chooses the update health unit option.;chooses;choose, pick;The employee;picker;the update health unit option.;thing picked;;;IO,Input,Selection
+The employee chooses the update health unit option.;update;make more modern;;;the;thing becoming more modern;;;Data,Write,Update
+The system retrieves the list of all health units.;retrieves;get back;The system;receiver;the list of all health units;thing gotten;;;Data,Read,Multiple
+The list of health units is returned to the employee.;returned;come back;;;The list of health units;entity in motion;;;IO,Output,Display
+The list of health units is formatted and displayed on the employee's local display.;formatted;;;;The list of health units;;;;IO,Output,Display,Process,Calculation
+The list of health units is formatted and displayed on the employee's local display.;displayed;to present, exhibit;;;The list of health units;entity displayed;on the employee's local display;location;IO,Output,Display
+The employee selects the health unit to be updated.;selects;to make a choice, to pick out;The employee;selector;the health unit;entity selected;;;IO,Input,Selection
+The employee selects the health unit to be updated.;updated;make more modern;;;the health unit;thing becoming more modern;;;Data,Write,Update
+The unique identifier for the selected health unit is sent to the server.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The unique identifier for the selected health unit is sent to the server.;sent;give;;;The unique identifier for the selected health unit;sent;to the server;sent-to;Data,Write,Create,Process,Communication,Outdoor
+The system ensures the health unit data is consistent.;ensures;promise;The system;entity making guarantee;the health unit data is consistent;guarantee;;;Data,Read,Single,Process,Calculation,Verification
+The system retrieves the data for the selected health unit.;retrieves;get back;The system;receiver;the data;thing gotten;;;Data,Read,Multiple
+The system retrieves the data for the selected health unit.;selected;to make a choice, to pick out;;;the;entity selected;;;IO,Input,Selection
+The data retrieved is returned to the employee.;retrieved;get back;;;is returned to the employee.;thing gotten;;;IO,Output,Display,Data,Read,Multiple
+The data retrieved is returned to the employee.;returned;come back;;;;;;;IO,Output,Display
+The health unit data is formatted and presented on the employee's local display.;formatted;;;;The health unit data;;;;IO,Output,Display,Process,Calculation
+The health unit data is formatted and presented on the employee's local display.;presented;give;;;The health unit data;thing given;;;IO,Output,Display
+The employee alters the necessary data.;alters;transform;The employee;causer of transformation;the necessary data;thing changing;;;Data,Write,Update
+The updated information is sent to the server.;updated;make more modern;;;The;thing becoming more modern;;;Data,Write,Update
+The updated information is sent to the server.;sent;give;;;The updated information;sent;to the server;sent-to;Data,Write,Create,Process,Communication,Outdoor
+The system ensures the health unit data is left in a consistent state.;ensures;promise;The system;entity making guarantee;the health unit data is left in a consistent state;guarantee;;;Process,Calculation,Verification
+The system ensures the health unit data is left in a consistent state.;left;move away from;;;the health unit data;place, person, or thing left;;;Noise
+The system stores the updated health unit information.;updated;make more modern;;;the;thing becoming more modern;;;Data,Write,Update
+, 8: A problem occurs retrieving the health unit information.;occurs;occur, take place;;;retrieving the health unit information;event;;;Data,Read,Single,Process,Calculation
+, 8: A problem occurs retrieving the health unit information.;retrieving;get back;A problem;receiver;the health unit information;thing gotten;;;Data,Read,Single
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+, 6, 9, 12: A communication problem occurs.;occurs;occur, take place;;;;;;;Process,Calculation,Communication,Outdoor
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Data consistency cannot be assured.;assured;calm someone's nerves;;;Data consistency cannot;assured one;;;Data,Read,Single,Process,Calculation,Verification
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+A problem occurs storing the updated health unit data.;occurs;occur, take place;;;storing the updated health unit data;event;;;Process,Calculation,Verification
+A problem occurs storing the updated health unit data.;storing;store;A problem;storer;the updated health unit data;commodity;;;Data,Write,Create,Update
+A problem occurs storing the updated health unit data.;updated;make more modern;;;the;thing becoming more modern;;;Data,Write,Update
+Raise an error message.;Raise;go up quantifiably;;;an error message;Logical subject, patient, thing rising;;;IO,Output,Notification
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+Health unit's data updated on the system.;updated;make more modern;;;Health unit's data;thing becoming more modern;;;Data,Write,Update
+The employee chooses the change logged employee option.;chooses;choose, pick;The employee;picker;the change logged employee option;thing picked;;;IO,Input,Selection
+The employee chooses the change logged employee option.;logged;to record or to navigate somewhere online;the change;recorder, logger, agent;employee option;thing recorded, internet software;;;Process,Calculation
+The system shows the login screen, and from this point on, the flow will follow the one described in Login.;shows;cause to see;The system;shower;the login screen;thing seen shown;;;IO,Output,Display
+The system shows the login screen, and from this point on, the flow will follow the one described in Login.;follow;adhere to, accept, pursue;the flow;acceptor, pursuer;the one described in Login;thing followed;;;UseCase,Flow
+The system shows the login screen, and from this point on, the flow will follow the one described in Login.;described;assign a label or attribute;;;the one;thing described;;;Noise
+Verified employee.;Verified;determine truth of a proposition;;;employee.;verified;;;Process,Verification
+First employee signed out and new employee logged-in.;signed;sign up: enroll, enter;;;First employee;patient enrolled;;;Process,Calculation

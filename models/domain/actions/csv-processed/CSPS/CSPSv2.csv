@@ -1,0 +1,296 @@
+Sentence;P;P_DESC;A0;A0_DESC;A1;A1_DESC;A2;A2_DESC;DomainActions
+"The system places a story in the editor’s ""to-do"" workflow queue.";places;location;The system;putter;a story;thing put;"in the editor’s ""to-do"" workflow queue.";where put;IO,Input,Entry
+"The system places a story in the editor’s ""to-do"" workflow queue.";"""";;the editor’s;;"to-do"" workflow queue";;;;
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;defined;assign a label or attribute;;;more than one editor;thing defined;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;used;Take advantage of, utilise;;;a round-robin approach;thing used;to attempt to balance load;purpose;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;attempt;try;a round-robin approach;Agent/Entity Trying;to balance load;thing tried;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;balance;establish a balance;a round-robin approach;balancer, agent;load;thing balanced;;;Process,Calculation
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;marked;make a mark;;;Editors;mark;;;Data,Write,Update
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;included;include;;;;;in the round-robin process;group;Process,Calculation
+The editor views the story.;views;assign an attribute to;The editor;assigner;the story;thing labelled;;;IO,Output,Display
+The editor categorizes the story by selecting from system-provided categories.;categorizes;assign into a category;The editor;assigner;the story;thing assigned;;;Noise
+The editor categorizes the story by selecting from system-provided categories.;selecting;to make a choice, to pick out;The editor;selector;;;;;IO,Input,Selection
+There may be more than one category assigned to the story.;assigned;give, associate with;;;more than one category;thing assigned;to the story;assigned to;Noise
+At least one category must be assigned to the story.;assigned;give, associate with;;;At least one category;thing assigned;to the story;assigned to;Noise
+The editor then marks the story as approved.;marks;;The editor;;the story;;;;IO,Input,Entry
+The editor then marks the story as approved.;approved;assent to;;;;;;;Noise
+The system includes the story in the list of available content for paging initiation.;includes;include;;;the story in the list of available content for paging initiation;theme, thing being included in some group;The system;group;Process,Calculation
+The system triggers initiation of paging messages.;triggers;begin;The system;Agent;initiation of paging messages;Theme(-Creation);;;Process,Calculation,Communication,Indoor
+The editor views the story.;views;assign an attribute to;The editor;assigner;the story;thing labelled;;;IO,Output,Display
+The editor marks the story as rejected and describes the reason for rejection.;marks;;The editor;;the story;;;;IO,Input,Entry
+The editor marks the story as rejected and describes the reason for rejection.;rejected;reject, decline, turn down;;;;;;;Noise
+The editor marks the story as rejected and describes the reason for rejection.;describes;assign a label or attribute;The editor;describer;the reason for rejection;thing described;;;IO,Input,Entry
+The system notifies the originator of the content that the story has been rejected and includes the reason provided by the editor.;notifies;tell, alert;The system;notifier, teller;the originator of the content that the story has been rejected and includes the reason provided by the editor;entity notified, told;;;Process,Communication,Indoor
+The system notifies the originator of the content that the story has been rejected and includes the reason provided by the editor.;rejected;reject, decline, turn down;;;the story;thing rejected;;;Noise
+The system notifies the originator of the content that the story has been rejected and includes the reason provided by the editor.;includes;include;;;the reason provided by the editor;theme, thing being included in some group;the story;group;Noise
+The system notifies the originator of the content that the story has been rejected and includes the reason provided by the editor.;provided;cf give;by the editor;provider;the reason;thing provided;;;IO,Input,Entry
+The system deletes the story.;deletes;remove;The system;entity removing;the story;thing being removed;;;Data,Write,Delete
+"Editor selects ""Modify Story"".";selects;to make a choice, to pick out;Editor;selector;"""Modify Story""";entity selected;;;IO,Input,Selection
+Editor selects specific title.;selects;to make a choice, to pick out;Editor;selector;specific title;entity selected;;;IO,Input,Selection
+Editor updates characteristics, either deleting some categories, adding other categories, or both.;deleting;;either;;some categories;;;;Data,Write,Delete
+Editor updates characteristics, either deleting some categories, adding other categories, or both.;adding;mathematics;;;other categories;thing being added;;;Data,Write,Create
+"Editor selects ""Save"".";selects;to make a choice, to pick out;Editor;selector;"""Save"".";entity selected;;;IO,Input,Selection
+System re-posts the story to the list of available content for paging initiation.;re-posts;;System;;the story;;to the list of available content for paging initiation;;Process,Calculation,Communication,Indoor
+The system triggers initiation of paging messages.;triggers;begin;The system;Agent;initiation of paging messages;Theme(-Creation);;;Process,Calculation,Communication,Indoor
+The editor views the advertising content.;views;assign an attribute to;The editor;assigner;the advertising content;thing labelled;;;IO,Output,Display
+The editor marks it approved.;marks;;The editor;;it approved.;;;;Data,Write,Update
+The editor marks it approved.;approved;assent to;it;approver;;;;;Noise
+The system includes the advertising content in the list of available advertising for display.;includes;include;;;the advertising content in the list of available advertising for display;theme, thing being included in some group;The system;group;Process,Calculation
+The system creates a preliminary billing record, using information stored about the advertiser (billing rate indicator, advertiser name and billing address), content identification, date, and total due.;creates;create;The system;creator;a preliminary billing record;thing created;;;Data,Write,Create
+The system creates a preliminary billing record, using information stored about the advertiser (billing rate indicator, advertiser name and billing address), content identification, date, and total due.;using;Take advantage of, utilise;The system;User;information;thing used;;;Noise
+The system creates a preliminary billing record, using information stored about the advertiser (billing rate indicator, advertiser name and billing address), content identification, date, and total due.;stored;store;;;information;commodity;;;
+The system marks the preliminary billing record as approved.;marks;signify;The system;signifier;the preliminary billing record as approved;signified;;;Data,Write,Update
+The system marks the preliminary billing record as approved.;approved;assent to;;;;;;;Noise
+The editor views the advertising content.;views;assign an attribute to;The editor;assigner;the advertising content;thing labelled;;;IO,Output,Display
+The editor marks it rejected and provides a reason for rejection.;marks;;The editor;;it rejected and provides a reason for rejection;;;;Data,Write,Update
+The editor marks it rejected and provides a reason for rejection.;rejected;reject, decline, turn down;it;rejecter;a reason for rejection;thing rejected;;;Noise
+The editor marks it rejected and provides a reason for rejection.;provides;cf give;;;;;;;IO,Input,Entry
+This may include account overdue, content inappropriate or not within scope of contract, or duplicate content (advertising content is already on file and being displayed).;include;include;;;account overdue, content inappropriate or not within scope of contract, or duplicate content (advertising content is already on file and being displayed);theme, thing being included in some group;This;group;Noise
+This may include account overdue, content inappropriate or not within scope of contract, or duplicate content (advertising content is already on file and being displayed).;duplicate;make a copy;;;content;original;;;Noise
+This may include account overdue, content inappropriate or not within scope of contract, or duplicate content (advertising content is already on file and being displayed).;(advertising;;content;;;;;;Noise
+This may include account overdue, content inappropriate or not within scope of contract, or duplicate content (advertising content is already on file and being displayed).;displayed;to present, exhibit;;;;;;;IO,Output,Display
+The system notifies the advertiser (via email) of the rejection and the reason.;notifies;tell, alert;The system;notifier, teller;the advertiser (via email) of the rejection and the reason;entity notified, told;;;Process,Communication,Outdoor
+The system deletes the content.;deletes;remove;The system;entity removing;the content;thing being removed;;;Data,Write,Delete
+If the story has been deleted by another editor and is not currently viewable, the use case terminates.;deleted;remove;by another editor;entity removing;the story;thing being removed;;;Data,Write,Delete
+If the story has been deleted by another editor and is not currently viewable, the use case terminates.;terminates;end, stop;;;the use case;Thing ending;;;UseCase,End
+Editor must be logged in.;logged;to record or to navigate somewhere online;;;Editor;thing recorded, internet/software;;;Process,Verification
+For story content, the paging process can begin immediately.;begin;start;;;the paging process;Theme(-Creation);;;Process,Calculation
+"User selects ""Edit Profile"".";selects;to make a choice, to pick out;User;selector;"""Edit Profile""";entity selected;;;IO,Input,Selection
+"System displays categories of profile (personal, preferences, pager information, ""page me when"" selections).";"""page";;(personal;;me;;;;
+"System displays categories of profile (personal, preferences, pager information, ""page me when"" selections).";);;;;""" selections";;;;
+User selects category.;selects;to make a choice, to pick out;User;selector;category;entity selected;;;IO,Input,Selection
+If more than one profile exists for a category (for instance, a subscriber may have more than one pager), a list of possible profiles within the category is  presented.;exists;be;;;for a category (for instance;thing existing;;;Process,Calculation
+If more than one profile exists for a category (for instance, a subscriber may have more than one pager), a list of possible profiles within the category is  presented.;have;own, possess;a subscriber;owner;more than one pager);possession;;;Noise
+If more than one profile exists for a category (for instance, a subscriber may have more than one pager), a list of possible profiles within the category is  presented.;presented;give;;;a list of possible profiles within the category;thing given;;;IO,Output,Display
+User selects specific profile within category.;selects;to make a choice, to pick out;User;selector;specific profile within category;entity selected;;;IO,Input,Selection
+"User updates detail, presses ""OK"".";"""";;presses;;User updates detail;;;;
+If information changed includes credit card information, system validates new information with external credit card system.;changed;transform;;;includes credit card information;thing changing;;;Data,Write,Update
+If information changed includes credit card information, system validates new information with external credit card system.;includes;include;;;credit card information;theme, thing being included in some group;;;Process,Calculation
+If information changed includes credit card information, system validates new information with external credit card system.;validates;to declare or make legally valid;system;causer;new information with external credit card system;entity validated;;;Process,Calculation,Verification,Communication,Outdoor
+If information contains pager information, pager PIN format is validated along with email address for sending pages.;contains;hold inside;information;container;pager information;contents;;;Process,Calculation
+If information contains pager information, pager PIN format is validated along with email address for sending pages.;validated;to declare or make legally valid;;;pager PIN format;entity validated;;;Process,Calculation,Verification
+If information contains pager information, pager PIN format is validated along with email address for sending pages.;sending;give;;;pages;sent;;;Process,Communication,Indoor
+If validation of credit card information fails, user is presented with a message indicating failure, and is presented with their profile for update once again.;fails;not succeed;;;validation of credit card information;thing failing;;;Process,Verification
+If validation of credit card information fails, user is presented with a message indicating failure, and is presented with their profile for update once again.;presented;give;;;with a message indicating failure;thing given;;;IO,Output,Notification
+If validation of credit card information fails, user is presented with a message indicating failure, and is presented with their profile for update once again.;indicating;show;a message;indicator;failure;thing indicated;;;IO,Output,Notification
+If validation of credit card information fails, user is presented with a message indicating failure, and is presented with their profile for update once again.;presented;give;;;with their profile for update;thing given;;;IO,Output,Notification
+If validation of credit card information fails, user is presented with a message indicating failure, and is presented with their profile for update once again.;update;make more modern;;;;;;;
+"If this is a new subscriber, the use case ""Pay Fee with Credit Card"" is invoked following step 9 above.";Pay;cf buy and sell;the use case;payer or buyer;"""";money or attention;;;
+"If this is a new subscriber, the use case ""Pay Fee with Credit Card"" is invoked following step 9 above.";invoked;;;;"the use case ""Pay Fee with Credit Card""";;;;
+For a new subscriber, when this use case is complete, the subscriber is immediately eligible to receive pages.;receive;get;the subscriber;receiver;pages;thing gotten;;;Process,Communication,Indoor
+This needs to be secured as credit card information may be in the profile.;needs;need;This;needer;to be secured as credit card information may be in the profile.;thing needed;;;Process,Verification
+This needs to be secured as credit card information may be in the profile.;secured;get;;;This;thing acquired;as credit card information may be in the profile.;source, gained from;Process,Verification
+"Subscriber selects ""pay fee with credit card"".";selects;to make a choice, to pick out;Subscriber;selector;"""pay fee";entity selected;;;IO,Input,Selection
+System checks to see if user is a current subscriber.;see;view;;;if user is a current subscriber;thing viewed;;;Process,Verification
+If the user is a new subscriber, a new subscriber ID is generated by the system (using any algorithm that will generate a unique number - this may, for instance, be a continually incrementing number within the system).;generated;create;by the system (using any algorithm that will generate a unique number;creator;ID;thing created;;;Data,Write,Create
+If the user is a new subscriber, a new subscriber ID is generated by the system (using any algorithm that will generate a unique number - this may, for instance, be a continually incrementing number within the system).;(using;;the system;;any algorithm that will generate a unique number;;;;Noise
+If the user is a new subscriber, a new subscriber ID is generated by the system (using any algorithm that will generate a unique number - this may, for instance, be a continually incrementing number within the system).;generate;create;any algorithm;creator;a unique number;thing created;;;Process,Calculation
+If the user is a new subscriber, a new subscriber ID is generated by the system (using any algorithm that will generate a unique number - this may, for instance, be a continually incrementing number within the system).;incrementing;;;;a;;;;Noise
+System checks to see if current subscriber credit card information is on file.;see;view;;;if current subscriber credit card information is on file;thing viewed;;;Process,Verification
+If it is, user is presented with indicator of credit card on file (using the last four digits of the card number), and asked if this card should be used.;presented;give;;;with indicator of credit card on file (using the last four digits of the card number);thing given;;;IO,Output,Notification
+If it is, user is presented with indicator of credit card on file (using the last four digits of the card number), and asked if this card should be used.;(using;;file;;the last four digits of the card number);;;;Noise
+If it is, user is presented with indicator of credit card on file (using the last four digits of the card number), and asked if this card should be used.;asked;ask a question;user;asker;if this card should be used;question;;;IO,Output,Notification
+If it is, user is presented with indicator of credit card on file (using the last four digits of the card number), and asked if this card should be used.;used;Take advantage of, utilise;;;this card;thing used;;;Noise
+If user declines current card information on file, system prompts subscriber for credit card number, expiration date, and (optionally) PIN.;prompts;cause an event;system;causer, prompter;subscriber for credit card number, expiration date, and (optionally) PIN.;event;;;IO,Output,Notification
+System verifies that expiration date on credit card has not already passed.;verifies;determine truth of a proposition;System;verifier;that expiration date on credit card has not already passed;verified;;;Process,Verification
+System verifies that expiration date on credit card has not already passed.;passed;go by;;;expiration date on credit card;thing passing;;;Noise
+System sends credit card info to external system for charge validation and application.;sends;give;System;sender;credit card info;sent;to external system for charge validation and application;sent-to;Process,Communication,Outdoor
+Upon receipt of validation, system updates subscriber record to indicate new expiration date.;indicate;show;;;new expiration date;thing indicated;;;Noise
+"Subscriber selects ""pay fee with credit card"".";selects;to make a choice, to pick out;Subscriber;selector;"""pay fee";entity selected;;;IO,Input,Selection
+User either accepts information as is or updates appropriately.;accepts;take willingly;User;acceptor;information as is or updates;thing accepted;;;IO,Input,Entry
+System sends credit card info to external system for charge validation and application.;sends;give;System;sender;credit card info;sent;to external system for charge validation and application;sent-to;Process,Communication,Outdoor
+Upon receipt of validation, system updates subscriber record to indicate new expiration date.;indicate;show;;;new expiration date;thing indicated;;;Noise
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;provided;cf give;by the subscriber;provider;the information;thing provided;;;IO,Input,Entry
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;validated;to declare or make legally valid;by the external system;causer;the information provided by the subscriber;entity validated;;;Process,Verification,Communication,Outdoor
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;displayed;to present, exhibit;;;an error message;entity displayed;;;IO,Output,Notification
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;updated;make more modern;;;(;thing becoming more modern;;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;executed;enact;;;the last steps in the above flows;thing done;;;UseCase,Flow
+If the credit card has expired, an error message will be displayed and the subscriber record will not be updated.;expired;get to end of valid time period;;;the credit card;commodity, thing expiring;;;Process,Verification
+If the credit card has expired, an error message will be displayed and the subscriber record will not be updated.;displayed;to present, exhibit;;;an error message;entity displayed;;;IO,Output,Notification
+If the credit card has expired, an error message will be displayed and the subscriber record will not be updated.;updated;make more modern;;;the subscriber record;thing becoming more modern;;;
+User is identified as a subscriber and has a subscriber ID associated with them.;identified;label, call;;;User;item being labelled;as a subscriber;attribute;Process,Verification
+User is identified as a subscriber and has a subscriber ID associated with them.;has;own, possess;User;owner;a subscriber ID associated with them;possession;;;Noise
+User is identified as a subscriber and has a subscriber ID associated with them.;associated;include in some group;;;a subscriber ID;theme, thing being included in some group;with them;group, associated-with;Noise
+For first-time subscribers, a preliminary subscriber entry is made.;made;bid or purchase or whatever;;;a preliminary subscriber entry;bid or purchase or whatever;;;Noise
+"Advertiser selects ""Print Reports"".";selects;to make a choice, to pick out;Advertiser;selector;"""Print Reports"".";entity selected;;;IO,Input,Selection
+System displays all advertising content provided by advertiser.;provided;cf give;by advertiser;provider;all advertising content;thing provided;;;IO,Input,Entry
+Advertiser selects one or more pieces of content on which to report.;selects;to make a choice, to pick out;Advertiser;selector;one or more pieces of content on which to report;entity selected;;;IO,Input,Selection
+Advertiser selects one or more pieces of content on which to report.;report;report, tell;;;one or more pieces of content;thing reported;;;Noise
+Available reports for each advertiser are based on advertiser contract with WebNewsOnLine, and are part of advertiser profile on file.;based;justified by;;;;;on advertiser contract with WebNewsOnLine;justification;Noise
+Advertiser selects one or more reports to generate.;selects;to make a choice, to pick out;Advertiser;selector;one or more reports to generate;entity selected;;;IO,Input,Selection
+Advertiser selects one or more reports to generate.;generate;create;;;;;;;Process,Calculation
+Advertiser selects format (Word, Excel, or to browser window).;selects;to make a choice, to pick out;Advertiser;selector;format (Word, Excel, or to browser window).;entity selected;;;IO,Input,Selection
+Advertiser selects format (Word, Excel, or to browser window).;browser;;;;window);;;;Noise
+System creates first report and prompts user to save or view.;creates;create;System;creator;first report;thing created;;;Data,Write,Create
+System creates first report and prompts user to save or view.;prompts;cause an event;System;causer, prompter;user to save or view;event;;;IO,Output,Notification
+System creates first report and prompts user to save or view.;save;collect, accrue;;;user;thing saved, collected;;;Data,Write,Update
+System creates first report and prompts user to save or view.;view;watch;;;;;;;IO,Output,Display
+"If advertiser selects ""Save"", a message is sent to the browser to initiate a download of the report file.";selects;to make a choice, to pick out;advertiser;selector;"""Save""";entity selected;;;IO,Input,Selection
+"If advertiser selects ""Save"", a message is sent to the browser to initiate a download of the report file.";sent;give;;;a message;sent;to the browser to initiate a download of the report file;sent-to;Process,Communication,Indoor
+"If advertiser selects ""Save"", a message is sent to the browser to initiate a download of the report file.";initiate;begin;;;a download of the report file;Theme(-Creation);;;Process,Calculation
+User interacts with browser to select location for saving the report, and the browser saves the downloaded file.;select;to make a choice, to pick out;;;location for saving the report, and the browser saves the downloaded file;entity selected;;;IO,Input,Selection
+User interacts with browser to select location for saving the report, and the browser saves the downloaded file.;saving;financial sense;;;the report;money;;;Data,Write,Update
+User interacts with browser to select location for saving the report, and the browser saves the downloaded file.;saves;financial sense;the browser;entity saving money;the downloaded file;money;;;Data,Write,Update
+"If advertiser selects ""View"", the report is displayed in the browser.";selects;to make a choice, to pick out;advertiser;selector;"""View""";entity selected;;;IO,Input,Selection
+"If advertiser selects ""View"", the report is displayed in the browser.";displayed;to present, exhibit;;;the report;entity displayed;in the browser;location;IO,Output,Display
+If more reports are available in this session, advertiser then selects another report or terminates the viewing session.;selects;to make a choice, to pick out;advertiser;selector;another report;entity selected;;;IO,Input,Selection
+If more reports are available in this session, advertiser then selects another report or terminates the viewing session.;terminates;end, stop;advertiser;Intentional agent;the viewing session;Thing ending;;;
+System creates next report and prompts user to save or view.;creates;create;System;creator;next report;thing created;;;Data,Write,Create,Process,Calculation
+System creates next report and prompts user to save or view.;prompts;cause an event;System;causer, prompter;user to save or view;event;;;IO,Output,Notification
+System creates next report and prompts user to save or view.;save;collect, accrue;;;user;thing saved, collected;;;Data,Write,Update
+System creates next report and prompts user to save or view.;view;watch;;;;;;;IO,Output,Display
+Bullets 4) through 11) are repeated until no more reports remain.;repeated;say again;;;4) through 11);utterance or action;;;UseCase,Flow
+Bullets 4) through 11) are repeated until no more reports remain.;remain;be left behind;;;no more reports;Thing remaining;;;Noise
+User is connected and validated as an advertiser.;connected;attach;;;as an advertiser;patient, thing(s) being tied;;;Process,Verification
+User is connected and validated as an advertiser.;validated;to declare or make legally valid;;;User;entity validated;as an advertiser;;Process,Verification
+Encryption of the information is not required (issue from Inception phase).;required;need;;;(issue from Inception phase);thing required;;;Noise
+Obsolete content will be purged after 3 months.;purged;to free from impurities, purify;;;Obsolete content;entity purged;;;Process,Calculation,Data,Write,Delete
+No reports may be run on purged content.;run;operate, procede;;;No reports;machine, operation, procedure;;;Process,Calculation
+No reports may be run on purged content.;purged;to free from impurities, purify;;;content;entity purged;;;Data,Write,Delete
+"User selects ""Provide Feedback"".";selects;to make a choice, to pick out;User;selector;"Provide Feedback""";entity selected;;;IO,Input,Selection
+"User selects ""Provide Feedback"".";Provide;cf give;"""";provider;;;"Feedback""";entity provided for (benefactive);IO,Input,Entry
+System looks up central user support phone numbers.;looks;vision;System;looker;central user support phone numbers.;thing looked at or for or on;;;Data,Read,Multiple
+System displays phone numbers to call and gives the user the option to send email immediately.;call;label;;;phone numbers;item being labelled;;;Noise
+System displays phone numbers to call and gives the user the option to send email immediately.;gives;transfer;System displays;giver;the option to send email immediately;thing given;;;
+System displays phone numbers to call and gives the user the option to send email immediately.;send;give;;;email;sent;;;Process,Communication,Outdoor
+User selects email option.;selects;to make a choice, to pick out;User;selector;email option.;entity selected;;;IO,Input,Selection
+System looks up email address of customer service and passes it to the browser.;looks;seeming;System;seemer;email address of customer service;seemed like, attribute of arg0;;;Data,Read,Single
+System looks up email address of customer service and passes it to the browser.;passes;give;System;giver;it;thing changing hands;to the browser;getter;Process,Communication,Indoor
+System launches email browser client.;launches;introduce, bring up, start;System;starter, agent;email browser client;thing being launched;;;Process,Calculation
+"User enters message, presses ""Send"".";enters;enter, go in;User;entity entering;message;place or thing entered;;;IO,Input,Entry
+"User enters message, presses ""Send"".";"""";;presses;;"Send""";;;;Noise
+"User enters message, presses ""Send"".";Send;give;presses;sender;"""";sent;;;Noise
+Browser mail client sends mail.;sends;give;Browser mail client;sender;mail;sent;;;Process,Communication,Outdoor
+"Advertiser selects ""Post Content"".";selects;to make a choice, to pick out;Advertiser;selector;"""Post Content""";entity selected;;;IO,Input,Selection
+System validates account billing information to ensure new content will be accepted.;validates;to declare or make legally valid;System;causer;account billing information;entity validated;;;Process,Verification
+System validates account billing information to ensure new content will be accepted.;ensure;promise;;;new content will be accepted.;guarantee;;;Process,Calculation,Verification
+System validates account billing information to ensure new content will be accepted.;accepted;take willingly;;;new content;thing accepted;;;Process,Verification
+This consists of verifying that the advertiser account is in good standing (no outstanding balance over 30 days).;consists;be composed of pieces;;;This;whole;of verifying that the advertiser account is in good standing (no outstanding balance over 30 days);parts;
+This consists of verifying that the advertiser account is in good standing (no outstanding balance over 30 days).;verifying;determine truth of a proposition;This;verifier;that the advertiser account is in good standing (no outstanding balance over 30 days);verified;;;Process,Verification
+This consists of verifying that the advertiser account is in good standing (no outstanding balance over 30 days).;);;;;30 days;;;;Noise
+System prompts for name of content.;prompts;bring about, cause;System;causer, prompter;;;for name of content;impelled action;IO,Output,Notification
+Advertiser uploads content in GIF format.;uploads;;Advertiser;;content;;;;IO,Input,Entry,Data,Write,Create,Process,Communication,Indoor
+System acknowledges successful saving of content.;acknowledges;admit;System;admitter, claimer, speaker;successful saving of content;proposition, claim, utterance;;;IO,Output,Notification
+Categories are maintained as a reference list within the system.;maintained;keep (up);;;Categories;thing maintained;as a reference list within the system;benefactive;Process,Calculation
+Advertiser selects categories for which this ad should be shown.;selects;to make a choice, to pick out;Advertiser;selector;categories for which this ad should be shown;entity selected;;;IO,Input,Selection
+Advertiser selects categories for which this ad should be shown.;shown;cause to see;;;this ad;thing seen/shown;;;IO,Output,Display
+Frequencies are maintained as a reference list, prices are based on advertiser's contract with WebNewsOnLine.;maintained;keep (up);;;Frequencies;thing maintained;as a reference list;benefactive;Process,Calculation
+Frequencies are maintained as a reference list, prices are based on advertiser's contract with WebNewsOnLine.;based;justified by;;;prices;decision;on advertiser's contract with WebNewsOnLine;justification;Noise
+Pricing codes are maintained as part of the advertiser profile.;maintained;keep (up);;;Pricing codes;thing maintained;;;Process,Calculation
+Advertiser selects desired frequency for this ad.;selects;to make a choice, to pick out;Advertiser;selector;desired frequency for this ad;entity selected;;;IO,Input,Selection
+Advertiser selects desired frequency for this ad.;desired;want, crave;;;frequency for this ad;wanted;;;Noise
+System creates preliminary billing record for this ad based on number of categories selected, frequency, and advertiser's profile.;creates;create;System;creator;preliminary billing record for this ad based on number of categories selected, frequency, and advertiser's profile;thing created;;;Data,Write,Create
+System creates preliminary billing record for this ad based on number of categories selected, frequency, and advertiser's profile.;based;justified by;;;this ad;decision;on number of categories selected, frequency, and advertiser's profile;justification;Noise
+System creates preliminary billing record for this ad based on number of categories selected, frequency, and advertiser's profile.;selected;to make a choice, to pick out;;;categories;entity selected;;;IO,Input,Selection
+"System places content in editor’s ""to-do"" workflow queue for approval.";places;location;System;putter;"""to-do"" workflow queue for approval.";thing put;in editor’s;where put;Process,Calculation
+"System places content in editor’s ""to-do"" workflow queue for approval.";"""";;;;"to-do"" workflow queue for approval";;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;defined;assign a label or attribute;;;more than one editor;thing defined;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;used;Take advantage of, utilise;;;a round-robin approach;thing used;to attempt to balance load;purpose;
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;attempt;try;a round-robin approach;Agent/Entity Trying;to balance load;thing tried;;;
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;balance;establish a balance;a round-robin approach;balancer, agent;load;thing balanced;;;Process,Calculation
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;marked;make a mark;;;Editors;mark;;;Data,Write,Update
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;included;include;;;;;in the round-robin process;group;Noise
+"Advertiser selects ""Post Content"".";selects;to make a choice, to pick out;Advertiser;selector;"""Post Content""";entity selected;;;IO,Input,Selection
+System validates account billing information to ensure new content will be accepted.;validates;to declare or make legally valid;System;causer;account billing information;entity validated;;;Process,Verification
+System validates account billing information to ensure new content will be accepted.;ensure;promise;;;new content will be accepted.;guarantee;;;Process,Calculation,Verification
+System validates account billing information to ensure new content will be accepted.;accepted;take willingly;;;new content;thing accepted;;;Process,Calculation
+Account information is invalid, advertiser is prompted to contact WebNewsOnLine.;prompted;bring about, cause;;;advertiser;impelled agent;to contact WebNewsOnLine;impelled action;IO,Output,Notification
+Account information is invalid, advertiser is prompted to contact WebNewsOnLine.;contact;to bring or come into contact;;;WebNewsOnLine;entity contacted;;;Noise
+System presents central phone number for advertising department (stored in system).;presents;give;System;giver;central phone number for advertising department (stored in system);thing given;;;IO,Output,Display
+System presents central phone number for advertising department (stored in system).;stored;store;;;central phone number for advertising department;commodity;;;
+User is connected and validated as an advertiser.;connected;attach;;;as an advertiser;patient, thing(s) being tied;;;Process,Verification
+User is connected and validated as an advertiser.;validated;to declare or make legally valid;;;User;entity validated;as an advertiser;;Process,Verification
+Advertiser account exists.;exists;be;;;Advertiser account;thing existing;;;Process,Calculation
+When this use case is complete, advertising content can be displayed.;displayed;to present, exhibit;;;advertising content;entity displayed;;;IO,Output,Display
+"System scans ""archived"" list of content.";scans;look at, examine;System;looker, examiner;"""archived"" list of content";thing examined;;;Data,Read,Multiple,Process,Calculation
+"Content subscribed to remains in a user's ""unread"" category until the story has been viewed.";subscribed;like a magazine subscription, or belief system;Content;subscriber;to remains;magazine or belief system;;;Noise
+"Content subscribed to remains in a user's ""unread"" category until the story has been viewed.";viewed;assign an attribute to;;;the story;thing labelled;;;IO,Output,Display
+"Once the story has been viewed, the story is marked as ""archived"" for that subscriber.";viewed;assign an attribute to;;;the story;thing labelled;;;IO,Output,Display
+"Once the story has been viewed, the story is marked as ""archived"" for that subscriber.";marked;make a mark;;;the story;mark;;;Data,Write,Update
+"After two days in the ""archived"" category, the story is removed from the subscriber's ""archived"" category.";removed;remove;;;the story;thing being removed;"from the subscriber's ""archived"" category";removed from;Data,Write,Delete
+For any stories older than 2 days, the story is moved back into the general category and the reference count attribute of the content object is decremented.;moved;change location;;;the story;moved;into the general category;destination;Data,Write,Update
+For any stories older than 2 days, the story is moved back into the general category and the reference count attribute of the content object is decremented.;decremented;;;;the reference count attribute of the content object;;;;Data,Write,Update
+"When a story is no longer referenced by any subscribers' ""unread"" or ""archived"" category (reference count is 0), the system deletes the story.";referenced;;"by any subscribers' ""unread""";;a story;;;;Noise
+"When a story is no longer referenced by any subscribers' ""unread"" or ""archived"" category (reference count is 0), the system deletes the story.";deletes;remove;the system;entity removing;the story;thing being removed;;;Data,Write,Delete
+System displays banner ads, general content categories, and specific stories for which pages have been sent.;sent;give;;;pages;sent;;;Noise
+"For any paged stories, the stories are marked as viewed and placed into the ""archived"" category.";marked;make a mark;;;the stories;mark;;;Data,Write,Update
+"For any paged stories, the stories are marked as viewed and placed into the ""archived"" category.";viewed;assign an attribute to;;;;;;;
+"For any paged stories, the stories are marked as viewed and placed into the ""archived"" category.";placed;location;;;;;"into the ""archived"" category";where put;Data,Write,Update
+System provides the option for the user to subscribe.;provides;cf give;System;provider;the option for the user to subscribe;thing provided;;;IO,Output,Notification
+System provides the option for the user to subscribe.;subscribe;pledge or contribute or sign up(?);the user;contributor;;;;;Noise
+If this content has a pending view count of 0 and the last date viewed is more than 2 days ago, the content is deleted.;has;own, possess;this content;owner;a pending view count of 0;possession;;;Noise
+If this content has a pending view count of 0 and the last date viewed is more than 2 days ago, the content is deleted.;viewed;assign an attribute to;;;the last date;thing labelled;;;Noise
+If this content has a pending view count of 0 and the last date viewed is more than 2 days ago, the content is deleted.;deleted;remove;;;the content;thing being removed;;;Data,Write,Delete
+Content editor places content on WebNewsOnLine web site (existing system, mechanisms for posting defined by existing system).;existing;be;;;(;thing existing;;;Noise
+Content editor places content on WebNewsOnLine web site (existing system, mechanisms for posting defined by existing system).;defined;assign a label or attribute;by existing system);describer;;;;;Noise
+Content editor places content on WebNewsOnLine web site (existing system, mechanisms for posting defined by existing system).;existing;be;;;;;;;Noise
+This currently includes indicating major content category (professional sports, high school sports, collegiate sports, or other).;includes;include;;;indicating major content category (professional sports, high school sports, collegiate sports, or other);theme, thing being included in some group;This;group;Noise
+This currently includes indicating major content category (professional sports, high school sports, collegiate sports, or other).;indicating;show;;;;;;;Noise
+WebNewsOnLine system checks reference information to determine whether this content category is known by the Collegiate Sports Paging System.;determine;set, establish, decide;;;whether this content category is known by the Collegiate Sports Paging System;thing determined;;;Process,Calculation,Verification
+WebNewsOnLine system checks reference information to determine whether this content category is known by the Collegiate Sports Paging System.;known;understand;by the Collegiate Sports Paging System;knower;this content category;thing known or thought;;;Noise
+For categories that are known by the Collegiate Sports Paging System, stories are transmitted to the Collegiate Sports Paging System along with category information.;known;understand;by the Collegiate Sports Paging System;knower;categories;thing known or thought;;;Noise
+For categories that are known by the Collegiate Sports Paging System, stories are transmitted to the Collegiate Sports Paging System along with category information.;transmitted;send (electronically);;;stories;sent;to the Collegiate Sports Paging System;sent-to;Process,Communication,Indoor
+Content is placed into the Collegiate Sports Paging System storage for possible paging.;placed;location;;;Content;thing put;into the Collegiate Sports Paging System storage for possible paging;where put;Data,Write,Create
+"If the content is not categorized, the story is placed in the editor’s ""to-do"" workflow queue.";categorized;assign into a category;;;the content;thing assigned;;;Noise
+"If the content is not categorized, the story is placed in the editor’s ""to-do"" workflow queue.";placed;location;;;"""to-do"" workflow queue.";thing put;in the editor’s;where put;Data,Write,Update
+"If the content is not categorized, the story is placed in the editor’s ""to-do"" workflow queue.";"""";;;;"to-do"" workflow queue";;;;
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;defined;assign a label or attribute;;;more than one editor;thing defined;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;used;Take advantage of, utilise;;;a round-robin approach;thing used;to attempt to balance load;purpose;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;attempt;try;a round-robin approach;Agent/Entity Trying;to balance load;thing tried;;;Noise
+If more than one editor is defined, a round-robin approach is used to attempt to balance load.;balance;establish a balance;a round-robin approach;balancer, agent;load;thing balanced;;;Process,Calculation
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;marked;make a mark;;;Editors;mark;;;Data,Write,Update
+Editors may be marked as unavailable (if, for instance, they are on vacation or sick or out of the office), in which case they will not be included in the round-robin process.;included;include;;;;;in the round-robin process;group;Process,Calculation
+Editor must be logged in.;logged;to record or to navigate somewhere online;;;Editor;thing recorded, internet/software;;;Process,Verification
+"When this use case is complete, the ""Send Page"" use case is invoked.";Send;give;"the """;sender;Page;sent;;;Noise
+"When this use case is complete, the ""Send Page"" use case is invoked.";invoked;call upon;;;""" use case";invoked;;;UseCase,Flow
+The flow is initiated when an editor posts content to the system or when new content is received from the existing WebNewsOnLine system.;initiated;begin;The flow;causer;when an editor posts;Theme(-Creation);content to the system;Instrument;UseCase,Begin
+The flow is initiated when an editor posts content to the system or when new content is received from the existing WebNewsOnLine system.;received;get;;;new content;thing gotten;from the existing WebNewsOnLine system;received from;Process,Communication,Indoor
+The flow is initiated when an editor posts content to the system or when new content is received from the existing WebNewsOnLine system.;existing;be;;;the;thing existing;;;Noise
+System checks subscriber profiles to determine whether any subscribers wish to be paged for this category of content.;determine;set, establish, decide;;;whether any subscribers wish to be paged for this category of content;thing determined;;;Process,Calculation
+System checks subscriber profiles to determine whether any subscribers wish to be paged for this category of content.;wish;wish;any subscribers;wisher;to be paged for this category of content;thing wished for;;;Noise
+System checks subscriber profiles to determine whether any subscribers wish to be paged for this category of content.;paged;notify someone via beeper;;;any subscribers;notified person;for this category of content;;Process,Calculation
+System generates a text message based on the headline.;generates;create;System;creator;a text message based on the headline;thing created;;;Data,Write,Create,Process,Calculation
+System generates a text message based on the headline.;based;justified by;;;a text message;decision;on the headline;justification;Noise
+System constructs a series of email messages.;constructs;build;System;builder;a series of email messages;construction;;;Process,Calculation
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;sends;give;System;sender;(who will receive these as an alphanumeric page);sent;to subscribers;sent-to;Process,Communication,Outdoor
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;(;;;;who will receive these as an alphanumeric page);;;;Noise
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;receive;get;;;these;thing gotten;;;
+If no headline exists, a system default message is inserted into the email message.;exists;be;;;no headline;thing existing;;;Process,Verification
+If no headline exists, a system default message is inserted into the email message.;inserted;to put or set into, between, or among;;;a system default message;entity inserted;into the email message;location;Process,Calculation
+The default message is maintained on the system by WebNewsOnLine staff, and there is only one message on the system at any time.;maintained;keep (up);by WebNewsOnLine staff;maintainer;The default message;thing maintained;;;Process,Calculation
+Content is posted, headline is available, categorization is available.;posted;cf report;;;Content;posted;;;Process,Communication,Indoor
+"Potential Subscriber selects ""Subscribe"" option.";selects;to make a choice, to pick out;Potential Subscriber;selector;"""Subscribe"" option.";entity selected;;;IO,Input,Selection
+System looks up current contract terms and available service options.;looks;vision;System;looker;current contract terms and available service options;thing looked at or for or on;;;Process,Calculation,Data,Read,Multiple
+Potential subscriber acknowledges terms and selects service options.;acknowledges;admit;Potential subscriber;admitter, claimer, speaker;terms;proposition, claim, utterance;;;IO,Input,Entry
+Potential subscriber acknowledges terms and selects service options.;selects;to make a choice, to pick out;Potential subscriber;selector;service options;entity selected;;;IO,Input,Selection
+System records currently selected service options.;selected;to make a choice, to pick out;System records;selector;service options.;entity selected;;;IO,Input,Selection
+"System displays categories of profile (personal, preferences, pager information, ""page me when"" selections).";"""page";;(personal;;me;;;;Noise
+"System displays categories of profile (personal, preferences, pager information, ""page me when"" selections).";);;;;""" selections";;;;Noise
+User selects category.;selects;to make a choice, to pick out;User;selector;category;entity selected;;;IO,Input,Selection
+"User updates detail, presses ""OK"".";"""";;presses;;User updates detail;;;;Noise
+System validates data as required, updates subscriber profile.;validates;to declare or make legally valid;System;causer;data;entity validated;as required, updates subscriber profile;;Process,Verification
+System validates data as required, updates subscriber profile.;required;need;;;, updates subscriber profile;thing required;;;Noise
+If the potential subscriber does not acknowledge the contract terms, the use case terminates.;acknowledge;admit;the potential subscriber;admitter, claimer, speaker;the contract terms;proposition, claim, utterance;;;IO,Input,Entry
+If the potential subscriber does not acknowledge the contract terms, the use case terminates.;terminates;end, stop;;;the use case;Thing ending;;;UseCase,End
+New subscriber is recorded in the system and may receive pages immediately.;recorded;make a permanent record;;;New subscriber;record;;;Data,Write,Create
+New subscriber is recorded in the system and may receive pages immediately.;receive;get;;;pages;thing gotten;;;Process,Communication,Indoor
+The system will not require user training beyond that of using a web browser.;require;need;The system;requirer;user training beyond that of using a web browser;thing required;;;
+The system will not require user training beyond that of using a web browser.;using;Take advantage of, utilise;;;a web browser;thing used;;;
+This will be verified by usability tests during the beta period.;verified;determine truth of a proposition;by usability tests;verifier;This;verified;;;
+The system will be able to support 200,000 subscribers, and provide a scaling mechanism to handle 500,000 subscribers.;support;lend aid, credence to;The system;helper;200,000 subscribers;person or project being supported;;;
+The system will be able to support 200,000 subscribers, and provide a scaling mechanism to handle 500,000 subscribers.;provide;cf give;The system;provider;a scaling mechanism to handle 500,000 subscribers;thing provided;;;
+The system will be able to support 200,000 subscribers, and provide a scaling mechanism to handle 500,000 subscribers.;scaling;;;;a;;;;
+The system will be able to support 200,000 subscribers, and provide a scaling mechanism to handle 500,000 subscribers.;handle;hold, metaphorically deal with;;;500,000 subscribers;thing handled;;;
+When a news story is posted to the system, pages must be transmitted to the pager gateway within 5 minutes.;posted;cf report;;;to the system;posted;;;
+When a news story is posted to the system, pages must be transmitted to the pager gateway within 5 minutes.;transmitted;send (electronically);;;pages;sent;to the pager gateway;sent-to;
+The subscriber shall be able to utilize the system through commercially available browser software.;utilize;to put to use;The subscriber;user, agent;the system;entity utilized;;;
+No custom software will be required to reside on the subscriber’s PC.;required;need;;;to reside on the subscriber’s PC;thing required;;;
+No custom software will be required to reside on the subscriber’s PC.;reside;to live for an extended period;No custom software;entity residing;on the subscriber’s PC;location;;;
+The system shall conform with existing WebNewsOnLine web site design standards.;conform;(cause) to be similar, comply;;;The system;entity conforming;with existing WebNewsOnLine web site design standards;entity conforming to;
+The system shall conform with existing WebNewsOnLine web site design standards.;existing;be;;;WebNewsOnLine web site design standards;thing existing;;;
+The system shall communicate with the existing WebNewsOnLine web site for the purpose of receiving story content.;communicate;communicate;The system;first (or all) communicator;;;with the existing WebNewsOnLine web site for the purpose of receiving story content;other communicator(s);
+The system shall communicate with the existing WebNewsOnLine web site for the purpose of receiving story content.;existing;be;;;the;thing existing;;;
+The system shall communicate with the existing WebNewsOnLine web site for the purpose of receiving story content.;receiving;get;;;story content;thing gotten;;;
+The system will interconnect with the existing WebNewsOnLine system to receive content.;interconnect;connect back and forth;The system;agent;with the existing WebNewsOnLine system;things connected;;;
+The system will interconnect with the existing WebNewsOnLine system to receive content.;existing;be;;;the;thing existing;;;
+The system will interconnect with the existing WebNewsOnLine system to receive content.;receive;get;The system;receiver;content;thing gotten;;;

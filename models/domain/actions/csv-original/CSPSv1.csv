@@ -1,0 +1,154 @@
+Sentence;P;P_DESC;A0;A0-DESC;A1;A1_DESC;A2;A2_DESC
+The system places a story in the editor’s "to-do" workflow.;places;location;The system;putter;a story;thing put;in the editor’s;where put
+The editor views the story.;views;assign an attribute to;The editor;assigner;the story;thing labelled;;
+The editor categorizes the story and marks it approved.;categorizes;assign into a category;The editor;assigner;the story;thing assigned;;
+The editor categorizes the story and marks it approved.;marks;;The editor;;it approved;;;
+The editor categorizes the story and marks it approved.;approved;assent to;it;approver;;;;
+The system includes the story and triggers initiation of paging messages.;includes;include;;;the story;theme, thing being included in some group;The system;group
+The system includes the story and triggers initiation of paging messages.;triggers;begin;The system;Agent;initiation of paging messages;Theme(-Creation);;
+The editor views the story.;views;assign an attribute to;The editor;assigner;the story;thing labelled;;
+The editor marks the story as rejected.;marks;;The editor;;the story;;;
+The editor marks the story as rejected.;rejected;reject, decline, turn down;;;;;;
+The system notifies the originator of the content that the story has been rejected.;notifies;tell, alert;The system;notifier, teller;the originator of the content that the story has been rejected;entity notified, told;;
+The system notifies the originator of the content that the story has been rejected.;rejected;reject, decline, turn down;;;the story;thing rejected;;
+Editor selects "Modify Story".;selects;to make a choice, to pick out;Editor;selector;"Modify Story";entity selected;;
+Editor selects specific title.;selects;to make a choice, to pick out;Editor;selector;specific title;entity selected;;
+Editor selects "Save".;selects;to make a choice, to pick out;Editor;selector;"Save".;entity selected;;
+System re-posts story, triggering paging activity as needed.;re-posts;;System;;story;;;
+System re-posts story, triggering paging activity as needed.;triggering;begin;;;paging activity as needed;Theme(-Creation);;
+System re-posts story, triggering paging activity as needed.;needed;need;;;paging activity;thing needed;;
+The editor views the advertising content.;views;assign an attribute to;The editor;assigner;the advertising content;thing labelled;;
+The editor marks it approved.;marks;;The editor;;it approved.;;;
+The editor marks it approved.;approved;assent to;it;approver;;;;
+The system includes the advertising content for display.;includes;include;;;the advertising content for display;theme, thing being included in some group;The system;group
+The system marks the preliminary billing record as approved.;marks;signify;The system;signifier;the preliminary billing record as approved;signified;;
+The system marks the preliminary billing record as approved.;approved;assent to;;;;;;
+The editor views the advertising content.;views;assign an attribute to;The editor;assigner;the advertising content;thing labelled;;
+The editor marks it rejected and provides a reason for rejection.;marks;;The editor;;it rejected and provides a reason for rejection;;;
+The editor marks it rejected and provides a reason for rejection.;rejected;reject, decline, turn down;it;rejecter;a reason for rejection;thing rejected;;
+The editor marks it rejected and provides a reason for rejection.;provides;cf give;;;;;;
+The system notifies the advertiser (via email) of the rejection and the reason.;notifies;tell, alert;The system;notifier, teller;the advertiser (via email) of the rejection and the reason;entity notified, told;;
+If the story has been deleted by another editor and is not currently viewable, the use case terminates.;deleted;remove;by another editor;entity removing;the story;thing being removed;;
+If the story has been deleted by another editor and is not currently viewable, the use case terminates.;terminates;end, stop;;;the use case;Thing ending;;
+Editor must be logged in.;logged;to record or to navigate somewhere online;;;Editor;thing recorded, internet/software;;
+User selects "Edit Profile".;selects;to make a choice, to pick out;User;selector;"Edit Profile";entity selected;;
+System displays categories of profile (personal, preferences, pager information, "page me when" selections.;"page;;(personal;;when" selections;;;
+User selects category.;selects;to make a choice, to pick out;User;selector;category;entity selected;;
+User updates detail, presses "OK".;";;presses;;User updates detail;;;
+System validates data as required, updates subscriber profile.;validates;to declare or make legally valid;System;causer;data;entity validated;as required, updates subscriber profile;
+System validates data as required, updates subscriber profile.;required;need;;;, updates subscriber profile;thing required;;
+If this is a new subscriber, the use case "Pay Fee with Credit Card" is invoked following step 5 above.;Pay;cf buy and sell;the use case;payer or buyer;";money or attention;;
+If this is a new subscriber, the use case "Pay Fee with Credit Card" is invoked following step 5 above.;invoked;;;;the use case "Pay Fee with Credit Card";;;
+This needs to be secured as credit card information may be in the profile.;needs;need;This;needer;to be secured as credit card information may be in the profile.;thing needed;;
+This needs to be secured as credit card information may be in the profile.;secured;get;;;This;thing acquired;as credit card information may be in the profile.;source, gained from
+Subscriber selects "pay fee with credit card".;selects;to make a choice, to pick out;Subscriber;selector;"pay fee;entity selected;;
+System prompts subscriber for credit card number, expiration date, and (optionally) PIN.;prompts;cause an event;System;causer, prompter;subscriber for credit card number, expiration date, and (optionally) PIN.;event;;
+System sends credit card info to external system for charge validation and application.;sends;give;System;sender;credit card info;sent;to external system for charge validation and application;sent-to
+Upon receipt of validation, system updates subscriber record to indicate new expiration date.;indicate;show;;;new expiration date;thing indicated;;
+Subscriber selects "pay fee with credit card".;selects;to make a choice, to pick out;Subscriber;selector;"pay fee;entity selected;;
+User either accepts information as is or updates appropriately.;accepts;take willingly;User;acceptor;information as is or updates;thing accepted;;
+System sends credit card info to external system for charge validation and application.;sends;give;System;sender;credit card info;sent;to external system for charge validation and application;sent-to
+Upon receipt of validation, system updates subscriber record to indicate new expiration date.;indicate;show;;;new expiration date;thing indicated;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;provided;cf give;by the subscriber;provider;the information;thing provided;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;validated;to declare or make legally valid;by the external system;causer;the information provided by the subscriber;entity validated;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;displayed;to present, exhibit;;;an error message;entity displayed;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;updated;make more modern;;;(;thing becoming more modern;;
+If the information provided by the subscriber is not validated by the external system, an error message will be displayed and the subscriber record will NOT be updated (so that the last steps in the above flows will not be executed).;executed;enact;;;the last steps in the above flows;thing done;;
+Interface specifications for external credit card system need to be verified.;need;need;Interface specifications for external credit card system;needer;to be verified;thing needed;;
+Interface specifications for external credit card system need to be verified.;verified;determine truth of a proposition;;;Interface specifications for external credit card system;verified;;
+Advertiser selects "Print Reports".;selects;to make a choice, to pick out;Advertiser;selector;"Print Reports".;entity selected;;
+System displays all advertising content provided by advertiser.;provided;cf give;by advertiser;provider;all advertising content;thing provided;;
+Advertiser selects one or more pieces of content on which to report.;selects;to make a choice, to pick out;Advertiser;selector;one or more pieces of content on which to report;entity selected;;
+Advertiser selects one or more pieces of content on which to report.;report;report, tell;;;one or more pieces of content;thing reported;;
+Advertiser selects one or more reports to generate.;selects;to make a choice, to pick out;Advertiser;selector;one or more reports to generate;entity selected;;
+Advertiser selects one or more reports to generate.;generate;create;;;;;;
+Advertiser selects format (Word, Excel, or to browser window).;selects;to make a choice, to pick out;Advertiser;selector;format (Word, Excel, or to browser window).;entity selected;;
+Advertiser selects format (Word, Excel, or to browser window).;browser;;;;window);;;
+System creates first report and prompts user to save or view.;creates;create;System;creator;first report;thing created;;
+System creates first report and prompts user to save or view.;prompts;cause an event;System;causer, prompter;user to save or view;event;;
+System creates first report and prompts user to save or view.;save;collect, accrue;;;user;thing saved, collected;;
+System creates first report and prompts user to save or view.;view;watch;;;;;;
+Advertiser saves or views report, selects "Next Report".;saves;financial sense;Advertiser;entity saving money;selects "Next Report".;money;;
+Advertiser saves or views report, selects "Next Report".;views;watch;Advertiser;viewer;;;;
+Advertiser saves or views report, selects "Next Report".;selects;to make a choice, to pick out;;;;;;
+System creates next report and prompts user to save or view.;creates;create;System;creator;next report;thing created;;
+System creates next report and prompts user to save or view.;prompts;cause an event;System;causer, prompter;user to save or view;event;;
+System creates next report and prompts user to save or view.;save;collect, accrue;;;user;thing saved, collected;;
+System creates next report and prompts user to save or view.;view;watch;;;;;;
+Flows 8) and 9) are repeated until no more reports remain.;repeated;say again;;;Flows 8) and 9);utterance or action;;
+Flows 8) and 9) are repeated until no more reports remain.;remain;be left behind;;;no more reports;Thing remaining;;
+User is connected and validated as an advertiser.;connected;attach;;;as an advertiser;patient, thing(s) being tied;;
+User is connected and validated as an advertiser.;validated;to declare or make legally valid;;;User;entity validated;as an advertiser;
+What do we do with obsolete content?;do;act;we;agent, doer;;;with obsolete content;benefactive, done for or about
+How long will we allow reports to be run on content no longer available on the web site?;allow;let;we;allower;reports;action allowed;;
+How long will we allow reports to be run on content no longer available on the web site?;run;operate, procede;;;we;machine, operation, procedure;;
+Do we need to encrypt this transmission?;need;need;we;needer;to encrypt this transmission;thing needed;;
+Do we need to encrypt this transmission?;encrypt;scramble digital information;;;this transmission;information;;
+User selects "Provide Feedback".;selects;to make a choice, to pick out;User;selector;Provide Feedback";entity selected;;
+User selects "Provide Feedback".;Provide;cf give;";provider;;;Feedback";entity provided for (benefactive)
+System looks up central user support phone numbers.;looks;vision;System;looker;central user support phone numbers.;thing looked at or for or on;;
+System displays phone numbers to call and gives the user the option to send email immediately.;call;label;;;phone numbers;item being labelled;;
+System displays phone numbers to call and gives the user the option to send email immediately.;gives;transfer;System displays;giver;the option to send email immediately;thing given;;
+System displays phone numbers to call and gives the user the option to send email immediately.;send;give;;;email;sent;;
+User selects email option.;selects;to make a choice, to pick out;User;selector;email option.;entity selected;;
+System looks up email address of customer service and passes it to the browser.;looks;seeming;System;seemer;email address of customer service;seemed like, attribute of arg0;;
+System looks up email address of customer service and passes it to the browser.;passes;give;System;giver;it;thing changing hands;to the browser;getter
+System launches email browser client.;launches;introduce, bring up, start;System;starter, agent;email browser client;thing being launched;;
+User enters message, presses "Send".;enters;enter, go in;User;entity entering;message;place or thing entered;;
+User enters message, presses "Send".;";;presses;;Send";;;
+User enters message, presses "Send".;Send;give;presses;sender;";sent;;
+Browser mail client sends mail.;sends;give;Browser mail client;sender;mail;sent;;
+Advertiser selects "Post Content".;selects;to make a choice, to pick out;Advertiser;selector;"Post Content";entity selected;;
+System validates account billing information to ensure new content will be accepted.;validates;to declare or make legally valid;System;causer;account billing information;entity validated;;
+System validates account billing information to ensure new content will be accepted.;ensure;promise;;;new content will be accepted.;guarantee;;
+System validates account billing information to ensure new content will be accepted.;accepted;take willingly;;;new content;thing accepted;;
+System prompts for content.;prompts;bring about, cause;System;causer, prompter;;;for content;impelled action
+Advertiser uploads content in GIF format.;uploads;;Advertiser;;content;;;
+System displays potential categories for ad display (based on subscriber profile options).;based;justified by;;;;;on subscriber profile;justification
+Advertiser selects categories for which this ad should be shown.;selects;to make a choice, to pick out;Advertiser;selector;categories for which this ad should be shown;entity selected;;
+Advertiser selects categories for which this ad should be shown.;shown;cause to see;;;this ad;thing seen/shown;;
+Advertiser selects desired frequency for this ad.;selects;to make a choice, to pick out;Advertiser;selector;desired frequency for this ad;entity selected;;
+Advertiser selects desired frequency for this ad.;desired;want, crave;;;frequency for this ad;wanted;;
+System creates preliminary billing record for this ad.;creates;create;System;creator;preliminary billing record for this ad;thing created;;
+System places content in editor’s "to-do" workflow for approval.;places;location;System;putter;"to-do" workflow;thing put;in editor’s;where put
+Advertiser selects "Post Content".;selects;to make a choice, to pick out;Advertiser;selector;"Post Content";entity selected;;
+System validates account billing information to ensure new content will be accepted.;validates;to declare or make legally valid;System;causer;account billing information;entity validated;;
+System validates account billing information to ensure new content will be accepted.;ensure;promise;;;new content will be accepted.;guarantee;;
+System validates account billing information to ensure new content will be accepted.;accepted;take willingly;;;new content;thing accepted;;
+Account information is invalid, advertiser is prompted to contact.;prompted;bring about, cause;;;advertiser;impelled agent;to contact;impelled action
+Account information is invalid, advertiser is prompted to contact.;contact;to bring or come into contact;;;;;;
+User is connected and validated as an advertiser.;connected;attach;;;as an advertiser;patient, thing(s) being tied;;
+User is connected and validated as an advertiser.;validated;to declare or make legally valid;;;User;entity validated;as an advertiser;
+System scans "archived" list of content.;scans;look at, examine;System;looker, examiner;"archived" list of content;thing examined;;
+For any stories older than 2 days, the story is moved back into the general category.;moved;change location;;;the story;moved;into the general category;destination
+System displays banner ads, general content categories, and specific stories for which pages have been sent.;sent;give;;;pages;sent;;
+For any paged stories, the stories are marked as viewed and placed into an "archived" category.;marked;make a mark;;;the stories;mark;;
+For any paged stories, the stories are marked as viewed and placed into an "archived" category.;viewed;assign an attribute to;;;;;;
+For any paged stories, the stories are marked as viewed and placed into an "archived" category.;placed;location;;;;;into an "archived" category;where put
+For any paged stories, the stories are marked as viewed and placed into an "archived" category.;"archived;;;;an;;;
+System provides the option for the user to subscribe.;provides;cf give;System;provider;the option for the user to subscribe;thing provided;;
+System provides the option for the user to subscribe.;subscribe;pledge or contribute or sign up(?);the user;contributor;;;;
+For categories that are known by the Collegiate Sports Paging System, stories are transmitted along with category information.;known;understand;by the Collegiate Sports Paging System;knower;categories;thing known or thought;;
+For categories that are known by the Collegiate Sports Paging System, stories are transmitted along with category information.;transmitted;send (electronically);;;stories;sent;;
+Story is placed into the Collegiate Sports Paging System for possible paging.;placed;location;;;Story;thing put;into the Collegiate Sports Paging System;where put
+If the content is not categorized, the story is placed in the editor’s "to-do" workflow.;categorized;assign into a category;;;the content;thing assigned;;
+If the content is not categorized, the story is placed in the editor’s "to-do" workflow.;placed;location;;;the story;thing put;in the editor’s "to-do" workflow;where put
+Editor must be logged in.;logged;to record or to navigate somewhere online;;;Editor;thing recorded, internet/software;;
+System checks subscriber lists to determine whether any subscribers wish to be paged for this category of content.;lists;enumerate;;;System checks subscriber;item;to determine whether any subscribers wish to be paged for this category of content;list
+System checks subscriber lists to determine whether any subscribers wish to be paged for this category of content.;determine;set, establish, decide;System checks subscriber;decider;whether any subscribers wish to be paged for this category of content;thing determined;;
+System checks subscriber lists to determine whether any subscribers wish to be paged for this category of content.;wish;wish;any subscribers;wisher;to be paged for this category of content;thing wished for;;
+System checks subscriber lists to determine whether any subscribers wish to be paged for this category of content.;paged;notify someone via beeper;;;any subscribers;notified person;for this category of content;
+System generates a text message based on the headline.;generates;create;System;creator;a text message based on the headline;thing created;;
+System generates a text message based on the headline.;based;justified by;;;a text message;decision;on the headline;justification
+System constructs a series of email messages.;constructs;build;System;builder;a series of email messages;construction;;
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;sends;give;System;sender;(who will receive these as an alphanumeric page);sent;to subscribers;sent-to
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;(;;;;who will receive these as an alphanumeric page);;;
+System sends email messages to subscribers (who will receive these as an alphanumeric page).;receive;get;;;these;thing gotten;;
+Content is posted, headline is available, categorization is available.;posted;cf report;;;Content;posted;;
+System looks up current contract terms and available service options.;looks;vision;System;looker;current contract terms and available service options;thing looked at or for or on;;
+Potential subscriber acknowledges terms and selects service options.;acknowledges;admit;Potential subscriber;admitter, claimer, speaker;terms;proposition, claim, utterance;;
+Potential subscriber acknowledges terms and selects service options.;selects;to make a choice, to pick out;Potential subscriber;selector;service options;entity selected;;
+System records currently selected service options.;selected;to make a choice, to pick out;System records;selector;service options.;entity selected;;
+System invokes "Edit Profile" use case.;invokes;call upon;System;invoker;"Edit Profile" use case;invoked;;
+If the potential subscriber does not acknowledge the contract terms, the use case terminates.;acknowledge;admit;the potential subscriber;admitter, claimer, speaker;the contract terms;proposition, claim, utterance;;
+If the potential subscriber does not acknowledge the contract terms, the use case terminates.;terminates;end, stop;;;the use case;Thing ending;;
